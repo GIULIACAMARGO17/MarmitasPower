@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Marmitas Fit e Normais</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Confira nossos Produtos!</h1>
+        <div class="produtos-grid">
+            <div class="produto">
+                <img src="imagens/marmita1.jpg" alt="Marmita Fit 1">
+                <h3>Marmita Fit 1</h3>
+                <p>R$ 25,00</p>
+                <button onclick="adicionarAoCarrinho('Marmita Fit 1', 25.00)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="imagens/marmita2.jpg" alt="Marmita Normal 1">
+                <h3>Marmita Normal 1</h3>
+                <p>R$ 30,00</p>
+                <button onclick="adicionarAoCarrinho('Marmita Normal 1', 30.00)">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Adicione mais produtos aqui -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Marmitas Fit e Normais. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
